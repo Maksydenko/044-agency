@@ -1,4 +1,7 @@
 {
+  "name": "044-agency",
+  "version": "0.1.0",
+  "private": true,
   "type": "module",
   "dependencies": {
     "@supabase/supabase-js": "^2.54.0",

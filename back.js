@@ -3,7 +3,7 @@ import express from 'express';
 
 import { startBot } from './bot.js';
 import { bot, supabase } from './config.js';
-import { ROLES, SUPABASE_TABLES } from './consts.js';
+import { ROLES, SUPABASE_TABLES } from './enums.js';
 
 const app = express();
 

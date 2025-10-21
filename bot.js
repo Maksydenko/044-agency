@@ -1,5 +1,5 @@
 import { bot, supabase } from './config.js';
-import { ROLES, SUPABASE_TABLES } from './consts.js';
+import { ROLES, SUPABASE_TABLES } from './enums.js';
 
 export const startBot = () => {
   bot.onText(/\/start/, async (msg) => {
